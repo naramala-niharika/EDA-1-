@@ -54,7 +54,7 @@ print("Original shape:", df.shape)
 
 ```
 # 2. Generate statistical summary :
-
+```
 summary = df.describe().T
 
 # Calculate interquartile range (IQR)
@@ -66,7 +66,7 @@ summary.columns = ['Mean', 'Median', 'Standard Deviation', 'Interquartile Range'
 
 summary
 
-
+```
 # Create histograms or boxplots to visualize the distributions of various numerical variables.
 
 Histogram : 
