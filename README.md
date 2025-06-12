@@ -91,6 +91,23 @@ plt.xticks(rotation=0)
 plt.show()
 
 ```
+# Use bar charts or pie charts to display the frequency of categories for categorical variables.
+
+Bar chart
+
+df['NSP_Label'] = df['NSP'].map({1: 'Normal', 2: 'Suspect', 3: 'Pathologic'})
+
+# Plot using the new categorical column
+```
+plt.figure(figsize=(8, 4))
+sns.countplot(x='NSP_Label', data=df, palette='Set2')
+plt.title('Frequency of Fetal State Classes (NSP)')
+plt.xlabel('Fetal State Class')
+plt.ylabel('Count')
+plt.show()
+```
+
+
 
 
 

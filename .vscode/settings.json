@@ -1,5 +1,7 @@
 {
     "cSpell.words": [
+        "ALTV",
+        "ASTV",
         "boxplots",
         "Cardiotocographic",
         "dtypes",
@@ -11,8 +13,11 @@
         "interquartile",
         "isnull",
         "matplotlib",
+        "MLTV",
+        "MSTV",
         "pyplot",
         "seaborn",
-        "suptitle"
+        "suptitle",
+        "xticks"
     ]
 }
