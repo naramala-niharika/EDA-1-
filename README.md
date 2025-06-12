@@ -69,7 +69,7 @@ summary
 ```
 # 3. Data Visualization:
 
-```
+
 # Create histograms or boxplots to visualize the distributions of various numerical variables.
 
 Histogram : 
