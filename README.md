@@ -51,6 +51,7 @@ def remove_outliers_iqr(data):
 # Apply outlier removal
 df_cleaned = remove_outliers_iqr(df)
 print("Original shape:", df.shape)
+
 ```
 2. Generate statistical summary :
 
