@@ -80,7 +80,17 @@ plt.tight_layout()
 plt.show()
 
 ```
+Box plot : 
+```
 
+selected_columns = ['LB', 'ASTV', 'MSTV', 'ALTV', 'MLTV', 'Width']
+plt.figure(figsize=(14, 8))
+df[selected_columns].boxplot()
+plt.title("Boxplots of Selected Features")
+plt.xticks(rotation=0)
+plt.show()
+
+```
 
 
 
