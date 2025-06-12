@@ -51,7 +51,9 @@ def remove_outliers_iqr(data):
 # Apply outlier removal
 df_cleaned = remove_outliers_iqr(df)
 print("Original shape:", df.shape)
-# Generate statistical summary
+```
+2. Generate statistical summary :
+
 summary = df.describe().T
 
 # Calculate interquartile range (IQR)
