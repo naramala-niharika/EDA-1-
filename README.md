@@ -67,13 +67,16 @@ summary.columns = ['Mean', 'Median', 'Standard Deviation', 'Interquartile Range'
 summary
 
 ```
+# 3. Data Visualization:
+
+```
 # Create histograms or boxplots to visualize the distributions of various numerical variables.
 
 Histogram : 
 
 df.hist(bins=30, figsize=(18, 12), color='pink', edgecolor='black')
 plt.suptitle("Histograms of Numerical Features", fontsize=18, y=1.02)
-plt.tight_layout()
+plt.tight_layout() 
 plt.show()
 
 ```
