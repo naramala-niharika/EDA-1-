@@ -62,7 +62,7 @@ summary.columns = ['Mean', 'Median', 'Standard Deviation', 'Interquartile Range'
 
 summary
 
-``
+```
 # Create histograms or boxplots to visualize the distributions of various numerical variables.
 
  ##Histogram 
@@ -72,7 +72,7 @@ plt.suptitle("Histograms of Numerical Features", fontsize=18, y=1.02)
 plt.tight_layout()
 plt.show()
 
-``
+```
 
 
 
