@@ -33,12 +33,13 @@ outlier_counts = detect_outliers_iqr(df)
 print("Outliers per column:")
 for col, count in outlier_counts.items():
     print(f"{col}: {count}")
+```
 # Function to remove outliers using IQR
 def remove_outliers_iqr(data):
     numeric_cols = data.select_dtypes(include='number').columns
     for col in numeric_cols:
         Q1 = data[col].quantile(0.25)
-        Q3 = data[col].quantile(0.75)
+        Q3 = data[col].quantile(0.75) 
         IQR = Q3 - Q1
         lower = Q1 - 1.5 * IQR
         upper = Q3 + 1.5 * IQR
@@ -61,7 +62,18 @@ summary.columns = ['Mean', 'Median', 'Standard Deviation', 'Interquartile Range'
 
 summary
 
-```
+``
+# Create histograms or boxplots to visualize the distributions of various numerical variables.
+
+ ##Histogram 
+
+df.hist(bins=30, figsize=(18, 12), color='pink', edgecolor='black')
+plt.suptitle("Histograms of Numerical Features", fontsize=18, y=1.02)
+plt.tight_layout()
+plt.show()
+
+``
+
 
 
 
