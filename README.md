@@ -3,11 +3,5 @@
 ## Steps : 
  1.	Data Cleaning and Preparation :
 
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-df=pd.read_csv("Cardiotocographic.csv")
-df.head()
-df.info()
-df.isnull().sum()
+
 
