@@ -53,7 +53,7 @@ df_cleaned = remove_outliers_iqr(df)
 print("Original shape:", df.shape)
 
 ```
-2. Generate statistical summary :
+# 2. Generate statistical summary :
 
 summary = df.describe().T
 
