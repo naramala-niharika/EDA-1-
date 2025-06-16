@@ -18,6 +18,8 @@
         "pyplot",
         "seaborn",
         "suptitle",
-        "xticks"
+        "xlabel",
+        "xticks",
+        "ylabel"
     ]
 }

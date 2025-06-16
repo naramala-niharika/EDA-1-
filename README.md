@@ -97,7 +97,7 @@ Bar chart
 
 df['NSP_Label'] = df['NSP'].map({1: 'Normal', 2: 'Suspect', 3: 'Pathologic'})
 
-# Plot using the new categorical column
+
 ```
 plt.figure(figsize=(8, 4))
 sns.countplot(x='NSP_Label', data=df, palette='Set2')
@@ -105,6 +105,33 @@ plt.title('Frequency of Fetal State Classes (NSP)')
 plt.xlabel('Fetal State Class')
 plt.ylabel('Count')
 plt.show()
+
+```
+Pie Chart 
+```
+label_map = {1: 'Normal', 2: 'Suspect', 3: 'Pathologic'}
+df['NSP_Label'] = df['NSP'].map(label_map)
+class_counts = df['NSP_Label'].value_counts()
+colors = ['#595a56', '#41ee22', '#ddff33']
+
+plt.figure(figsize=(5, 5))
+patches, texts, autotexts = plt.pie(
+    class_counts,
+    autopct='%1.1f%%',
+    colors=colors,
+    startangle=140,
+    textprops={'fontsize': 12}
+)
+
+plt.legend(patches, class_counts.index, title="Fetal State", loc='best')
+plt.title('NSP Class Distribution')
+plt.axis('equal')  
+plt.tight_layout()
+plt.show()
+
+
+
+
 ```
 
 
