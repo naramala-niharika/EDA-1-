@@ -133,6 +133,17 @@ plt.show()
 
 
 ```
+### Correlation Heatmap:
+```
+numeric_df = df.select_dtypes(include=['number'])
+
+plt.figure(figsize=(12, 8))
+correlation_matrix = numeric_df.corr()
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
+plt.title("Correlation Heatmap of Numeric Features")
+plt.show()
+
+```
 
 
 
