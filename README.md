@@ -129,7 +129,7 @@ plt.axis('equal')
 plt.tight_layout()
 plt.show()
 
-![Output](https://raw.githubusercontent.com/naramala-niharika/EDA-1-/main/Box%20plot.png)
+![Box Plot](https://raw.githubusercontent.com/naramala-niharika/EDA-1-/main/images/box_plot.png)
 
 
 
