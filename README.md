@@ -144,6 +144,14 @@ plt.title("Correlation Heatmap of Numeric Features")
 plt.show()
 
 ```
+## Violin plot: 
+
+```
+plt.figure(figsize=(10, 6))
+sns.violinplot(x='NSP', y='LB', data=df)  
+plt.title("Violin Plot of LB across NSP Classes")
+plt.show()
+```
 
 
 
