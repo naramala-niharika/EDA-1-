@@ -1,9 +1,14 @@
 {
     "cSpell.words": [
         "ALTV",
+        "annot",
         "ASTV",
+        "autopct",
+        "autotexts",
         "boxplots",
         "Cardiotocographic",
+        "cmap",
+        "coolwarm",
         "dtypes",
         "edgecolor",
         "figsize",
@@ -17,7 +22,10 @@
         "MSTV",
         "pyplot",
         "seaborn",
+        "startangle",
         "suptitle",
+        "textprops",
+        "violinplot",
         "xlabel",
         "xticks",
         "ylabel"
