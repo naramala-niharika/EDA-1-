@@ -129,7 +129,7 @@ plt.axis('equal')
 plt.tight_layout()
 plt.show()
 
-![Output]()
+![Output](https://github.com/naramala-niharika/EDA-1-/blob/main/.vscode/pie%20chart.png?raw=true)
 
 
 
@@ -151,7 +151,7 @@ plt.show()
 plt.figure(figsize=(10, 6))
 sns.violinplot(x='NSP', y='LB', data=df)  
 plt.title("Violin Plot of LB across NSP Classes")
-plt.show(https://github.com/naramala-niharika/EDA-1-/blob/main/.vscode/pie%20chart.png)
+plt.show()
 ```
 
 
